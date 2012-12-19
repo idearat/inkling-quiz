@@ -1,5 +1,6 @@
 // ========================================================================
-// Copyright 2011 Idearat (Scott Shattuck). All Rights Reserved.
+// NAME: inkling_base.js
+// AUTH: Scott Shattuck
 
 /**
  * @fileoverview Implements the Web Application Engineer Challenge.
@@ -26,8 +27,6 @@
  *
  * This implementation only needs to function in the latest versions of
  * Firefox and Safari.
- *
- * @author scott.shattuck@gmail.com
  */
 
 // ========================================================================

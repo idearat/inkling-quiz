@@ -1,5 +1,6 @@
 // ========================================================================
-// Copyright 2011 Idearat (Scott Shattuck). All Rights Reserved.
+// NAME: inkling_test.js
+// AUTH: Scott Shattuck
 
 /**
  * @fileoverview Basic unit test harness and simple unit tests for the Web
@@ -10,8 +11,6 @@
  * comes from the QUnit testing harness from jQuery, although there is no
  * jQuery code or dependency here. These are _very simple_ but sufficient to
  * ensure that the Path code meets the requirements of the specification.
- *
- * @author scott.shattuck@gmail.com
  */
 
 // ========================================================================
