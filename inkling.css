@@ -1,0 +1,100 @@
+/*    =====================================================================
+NAME: inkling.css  
+AUTH: scott.shattuck@gmail.com
+NOTE: Copyright 2011 Idearat (Scott Shattuck). All Rights Reserved.
+      ---------------------------------------------------------------------
+*/
+
+/* Baseline */
+html,body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  color: #000;
+  background: #fff;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: 13px "Lucida Grande", arial, verdana, sans-serif;
+}
+
+/* Framing */
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e4edf2;
+}
+
+/* Asserts */
+.assert {
+  margin: 1em;
+  border: 1px solid #017cb5;
+  padding: .25em;
+  color: #fff;
+  background-color: #0191b2;
+
+  -moz-border-radius: .5em;
+  -webkit-border-radius: .5em;
+  border-radius: 1em;
+}
+
+.assert .name {
+  border: 1px solid #e4edf2;
+  padding: .25em;
+  background-color: #009b9d;
+
+  -webkit-border-top-left-radius: .5em;
+  -webkit-border-top-right-radius: .5em;
+  -moz-border-radius-topleft: .5em;
+  -moz-border-radius-topright: .5em;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.assert .result {
+  border: 1px solid #e4edf2;
+  border-top: 0;
+  padding: .25em;
+
+  -webkit-border-bottom-right-radius: .5em;
+  -webkit-border-bottom-left-radius: .5em;
+  -moz-border-radius-bottomright: .5em;
+  -moz-border-radius-bottomleft: .5em;
+  border-bottom-right-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+.assert .pass {
+  background-color: #a2b62d;
+}
+
+.assert .fail {
+  background-color: #eda23e;
+}
+
+.note .assert .name {
+  color: #000;
+  font-style: bold;
+  background-color: #e4edf2;
+  
+  -webkit-border-bottom-right-radius: .5em;
+  -webkit-border-bottom-left-radius: .5em;
+  -moz-border-radius-bottomright: .5em;
+  -moz-border-radius-bottomleft: .5em;
+  border-bottom-right-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+/*    =====================================================================
+*/

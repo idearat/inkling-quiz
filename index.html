@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!--  =====================================================================
+NAME: index.html 
+AUTH: scott.shattuck@gmail.com
+NOTE: Copyright 2011 Idearat (Scott Shattuck). All Rights Reserved.
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Web Application Engineer Challenge</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<!-- CSS styles for the simple unit test output/log. -->
+<link rel="stylesheet" href="./inkling.css" type="text/css"/>
+
+<!-- The JS for the application engineer challenge. -->
+<script type="text/javascript" src="./inkling_base.js"></script>
+
+<!-- The unit tests for the application engineer challenge. -->
+<script type="text/javascript" src="./inkling_test.js"></script>
+
+</head>
+
+<!-- Trigger unit tests on load. -->
+<body onload="runTests()">
+
+<!-- DIV container for unit test output. -->
+<div id="background">
+  <div class="assert" style="text-align: center">
+  <h3>Unit tests for the Web Application Engineer Challenge.</h3>
+  <h5>A prefix of !!! implies test name code is known to be invalid.</h5>
+  </div>
+</div>
+</body>
+</html>
